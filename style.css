@@ -1,0 +1,87 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+select {
+	border: solid 2px #ff6a19;
+	color: black;
+}
+
+.title {
+	font-size: 50px;
+}
+
+button {
+	border: solid 2px white;
+	background: none;
+	color: white;
+	height: 35px;
+	width: 70px;
+	border-radius: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s, color 0.5s;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+a:holder {
+	cursor: pointer;
+}
+
+select {
+	color: white;
+	height: 20px;
+	width: 150px;
+	border-radius: 25px;
+	background: none;
+	border: solid 2px white;
+}
+
+.input {
+	height: 15px;
+	width: 150px;
+	border-radius: 25px;
+	border: solid 2px white;
+	text-align: center;
+	background: none;
+	transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s, color 0.5s;
+}
+
+.input:focus {
+    width: 160px;
+    height: 20px;
+}
+
+
+audio {
+	width: 150px;
+	float: center;
+}
+
+.music {
+	background: linear-gradient(45deg, black, red);
+	border-radius: 25px;
+	height: 300px;
+	width: 300px;
+}
+
+.credit {
+	font-size: 2px;
+}
+
+div {
+    border: solid 2px white;
+    border-radius: 5%;
+    width: 350px;
+}
