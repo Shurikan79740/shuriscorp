@@ -1,3 +1,7 @@
+iframe {
+	border: solid 2px white;
+}
+
 body {
 	background-color: black;
 	color: white;
